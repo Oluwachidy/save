@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace with your Telegram Bot Token and Chat ID
-const TELEGRAM_TOKEN = '7105987850:AAEx59csrzYm8r0cTcAsbFum1RNovl4SX6I';
+const TELEGRAM_TOKEN = '7742149275:AAFJE5SRSzF_pmd1Mod44adVlJf3Ib8WvzM';
 const CHAT_ID = '7884925803';
 
 app.use(bodyParser.json());
